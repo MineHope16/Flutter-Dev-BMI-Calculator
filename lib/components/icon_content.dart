@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'constan.dart';
 
 class GenderCard extends StatelessWidget {
   late final IconData iconData;
@@ -20,7 +21,7 @@ class GenderCard extends StatelessWidget {
         SizedBox(height: 15),
         Text(
           label,
-          style: TextStyle(fontSize: 18, color: Colors.white),
+          style: klableTextStyle,
         ),
       ],
     );
